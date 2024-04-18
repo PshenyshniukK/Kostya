@@ -44,8 +44,8 @@
 #         print(x y)
 
 
-Countries = ['Ukraine', 'Spain','Italy']
-Countries1 = {'Ukraine': 'Kiev', 'Spain': 'Madrid', 'Italy': 'Rome'}
+Countries1 = ['Ukraine', 'Spain','Italy']
+Countries2 = {'Ukraine': 'Kiev', 'Spain': 'Madrid', 'Italy': 'Rome'}
 print('Ukraine: Kiev', 'Spain: Madrid', 'Italy: Rome', sep='\n')
 
 
@@ -55,6 +55,13 @@ print(data[1].split(":")[0], data[1].split(":")[1], sep=': ')
 print(data[2].split(":")[0], data[1].split(":")[1], sep=': ')
 
 
-Countries=['Ukraine', 'Spain', 'Italy']
+Countries3=['Ukraine', 'Spain', 'Italy']
 Capitals=['Kiev', 'Madrid', 'Rome']
-print('\n'.join(['{}\t{}'.format(*t) for t in zip(Countries,Capitals)]))
+n = ':'
+print('\n'.join(['{}:\t{}'.format(*t) for t in zip(Countries3, Capitals)]))
+
+Countries6 = ['Ukraine', 'Spain','Italy']
+Countries7 = {'Ukraine': 'Kiev', 'Spain': 'Madrid', 'Italy': 'Rome'}
+print(Countries2['Ukraine'])
+
+
