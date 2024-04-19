@@ -25,4 +25,3 @@ print(Countries6[1], Countries7['Spain'], sep=': ')
 print(Countries6[2], Countries7['Italy'], sep=': ')
 
 
-sdf
