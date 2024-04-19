@@ -1,47 +1,3 @@
-# Capitals = dict()
-# Capitals['Ukraine'] = 'Kiev'
-# Capitals['Spain'] = 'Madrid'
-# Capitals['Italy'] = 'Rome'
-#
-#
-# Countries = ['Ukraine', 'Spain','Italy']
-# Countries = {'Ukraine': 'Kiev', 'Spain': 'Madrid', 'Italy': 'Rome'}
-# print('Countries')
-# for key in Countries:
-#     print({Countries[key]})
-# for value in Countries.values():
-#     print(value)
-
-# users = {
-#     "+11111111": "Tom",
-#     "+33333333": "Bob",
-#     "+55555555": "Alice"
-# }
-# for key in users:
-#     print(f"Phone: {key}  User: {users[key]} ")
-# Countries = {'Ukraine': 'Kiev', 'Spain': 'Madrid', 'Italy': 'Rome'}
-#
-# x = Countries.keys()
-# y = Countries.values()
-# print(x, y)
-
-
-
-
-# countries = ['Ukraine', 'Spain', 'Italy']
-# capitals = ['Kiev', 'Madrid', 'Rome']
-#
-# dictionary = dict(zip(countries, capitals))
-# print(dictionary)
-
-
-#
-# list1 = ['Ukraine', 'Spain', 'Italy']
-#
-# dict1 = {'Ukraine': 'Kiev', 'Spain': 'Madrid', 'Italy': 'Rome'}
-# for x in dict1:
-#     for y in dict1:
-#         print(x y)
 
 
 Countries1 = ['Ukraine', 'Spain','Italy']
@@ -69,4 +25,4 @@ print(Countries6[1], Countries7['Spain'], sep=': ')
 print(Countries6[2], Countries7['Italy'], sep=': ')
 
 
-
+sdf
