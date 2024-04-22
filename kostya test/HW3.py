@@ -16,7 +16,7 @@ Capitals=['Kiev', 'Madrid', 'Rome']
 n = ':'
 print('\n'.join(['{}:\t{}'.format(*t) for t in zip(Countries3, Capitals)]))
 
-# Предыдущий код я оставил т.к. жалко удалять, ведь решения задачи были верными))
+# Предыдущий код я оставил т.к. жалко удалять, ведь решения задачи были верными)))
 
 Countries6 = ['Ukraine', 'Spain','Italy']
 Countries7 = {'Ukraine': 'Kiev', 'Spain': 'Madrid', 'Italy': 'Rome'}
