@@ -6,4 +6,4 @@ for i in range(maximum_width - minimum_width + 1):
     if i == 0 or i == (maximum_width - minimum_width):
         print(' ' * test + '*' * minimum_width + ' ' * test)
     else:
-        print(' ' * abs(test - i) + '*' + ' ' * range())
+        print(' ' * abs(test - i) + '*' + ' ' * (minimum_width + (i * 2)) + '*')
