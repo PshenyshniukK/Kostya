@@ -1,7 +1,10 @@
-# minimum_width = int(input('minimum_width :'))
-# maximum_width = int(input('maximum_width :'))
-# print((maximum_width - minimum_width) / 2)
-
-param1 = list(range(3, 9, 2))
-print(param1[0])
-print(param1)
+# par1 = ''
+# res = ''
+# for i in range(len(par1)-1, -1, -1):
+#     res += par1[i]
+#
+# n = reversed(input())
+# print(n)
+par2 = input()
+# print('' .join(reversed(par2)))
+print(par2 is reversed(par2))
