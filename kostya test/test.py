@@ -1,8 +1,26 @@
-string = "This tool is cool. But that owl is awful. MAGIC TOOLS Ltd."
+#
+# print("ab12".isalnum())
+# print("ab_12".isalnum())
+# print("ab".isalpha())
+# print("ab12".isalpha())
+# print("ab12\n\tQ".isascii())
 
-string1 = string.casefold().split()
-print(string1)
+# print("Modification")
+# par1 = ' DEBUG saved to db   '
+# print(par1.removeprefix(" "))
+#
+# print("DEBUG saved to db".removeprefix("INFO"))
+# print("abcdqq".removesuffix('qq'))
+# print("abcdqq 1".removesuffix(' '))
+# str1 = "ababbbabaaab"
+# str2 = str1.replace('ab', 'xx')
+# print(str1)
+# print(str2)
+# print("ababbbabaaab".replace('ab', 'xx'))
+# print("ababbbabaaab".replace('ab', 'xx', 2))
+# print('01\t012\t0123\t01234'.expandtabs())
+# print('01\t012\t0123\t01234'.expandtabs(4))
 
-for i in string1:
-    if 'oo' in i:
-        print(i, end=' ')
+str1 = ' aba '
+str2 = str.removesuffix(str1,' ')
+print(str2)
