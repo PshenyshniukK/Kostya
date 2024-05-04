@@ -8,5 +8,4 @@ result2 = result
 print(string1)
 print(result)
 print(result2)
-
 print(string1 == result2)
