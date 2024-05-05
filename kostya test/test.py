@@ -1,26 +1,52 @@
-#
-# print("ab12".isalnum())
-# print("ab_12".isalnum())
-# print("ab".isalpha())
-# print("ab12".isalpha())
-# print("ab12\n\tQ".isascii())
+# items = ['1', 'bar', 'baz']
+# list2 = []
+# for (i, elem) in enumerate(items):
+#     list2[i] = len(items[i].split())
+# list2 = []
+# for i in items:
+#     list2 += len(items[i].split())
 
-# print("Modification")
-# par1 = ' DEBUG saved to db   '
-# print(par1.removeprefix(" "))
-#
-# print("DEBUG saved to db".removeprefix("INFO"))
-# print("abcdqq".removesuffix('qq'))
-# print("abcdqq 1".removesuffix(' '))
-# str1 = "ababbbabaaab"
-# str2 = str1.replace('ab', 'xx')
-# print(str1)
-# print(str2)
-# print("ababbbabaaab".replace('ab', 'xx'))
-# print("ababbbabaaab".replace('ab', 'xx', 2))
-# print('01\t012\t0123\t01234'.expandtabs())
-# print('01\t012\t0123\t01234'.expandtabs(4))
+sentences = "Hello all. Here's pretty cold and hot. Choose yourself."
+i = sentences.split('.')
 
-str1 = ' aba '
-str2 = str.removesuffix(str1,' ')
-print(str2)
+# print(str(i))
+
+for x in i:
+    print(x)
+
+
+#
+#
+# # list1 = [1, 2, 3]
+# # list2 = []
+# # for i in list1:
+# #    list2 += list1.append(i)
+# # print(list1)
+#
+# result = [int(item) for item in items]
+#
+# items = ['1', 'bar', 'baz']
+# list2 = []
+# # for i in items:
+# #     list2[i] = len(items[i].split())
+# for i in items:
+#     if i == i:
+#         list2[i] = len(items[i].split())
+#     print(list2)
+
+# height = ['1', 'bar', 'baz']
+#
+# for item in height:
+#     height = {
+#         'p': item.text
+#     }
+#     print(height)
+#
+# my_list = ['Hello all', 'Here is pretty cold and hot', 'Choose yourself']
+# new_list = []
+#
+# for item in my_list:
+#     new_list.len(my_list[item].split()).append(item)
+#
+# print(new_list)
+
