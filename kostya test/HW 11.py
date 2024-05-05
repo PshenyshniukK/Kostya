@@ -1,8 +1,12 @@
 
-prop = input()
-result = list(prop.split('.'))
-parts1 = len(result[0].split())
-parts2 = len(result[1].split())
-parts3 = len(result[2].split())
-list1 = [parts1, parts2, parts3]
-print(list1)
+my_text = 'Hello all. Here is pretty cold and hot. Choose yourself'
+par1 = my_text.split('. ')
+list2 = []
+for i in par1:
+    list2.append(i)
+print(list2)
+list3 = []
+for i in list2:
+   print(len(i.split()), end=', ')
+
+

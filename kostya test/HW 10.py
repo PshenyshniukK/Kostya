@@ -1,5 +1,5 @@
 
-string1 = input().lower().lstrip().rstrip()
+string1 = input('Enter text to check is palidrom:').lower().lstrip().rstrip()
 str2 = int(len(string1))
 result = ''
 for i in range(str2 - 1, -1, -1):
