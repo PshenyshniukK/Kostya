@@ -71,15 +71,16 @@ items = [1, 3, 3]
 #
 # print(new_list)
 
-my_text = 'Hello all. Here is pretty cold and hot. Choose yourself'
-par1 = my_text.split('. ')
-list2 = []
-for i in par1:
-    list2.append(i)
-print(list2)
-list3 = []
-for i in list2:
-   print(len(i.split()))
+# my_text = 'Hello all. Here is pretty cold and hot. Choose yourself'
+# par1 = my_text.split('. ')
+# print(len(par1[0]))
 
+
+n = 10
+
+# use pass inside if statement
+if n == 10:
+    continue
+    print('Hello')
 
 
