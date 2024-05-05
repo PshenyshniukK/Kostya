@@ -1,12 +1,7 @@
 email = "aaa@b.ccc"  # True
-# print(email[0].isalpha())
-# print(email[0] != '@')
-# print(email[-1].isalpha())
-# print(email[-1] != '.')
-# print('@' in email)
-# print('.' in email)
-# print(email.index('@') < email.index('.'))
-# print("ab12\n\tQ".isascii())
+email2 = email.replace('@', '').replace('.', '')
 
-print(email.isascii())
-
+if email[0].isalpha() and email[0] != '@' and email[-1].isalpha() and email[-1] != '.' and '@' in email and '.' in email and email.index('@') < email.index('.') and "ab12\n\tQ".isascii() and email2.isalnum() and email.count('@') == 1 and email.count('.') == 1:
+    print('True')
+else:
+    print('False')
